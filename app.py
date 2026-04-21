@@ -249,7 +249,7 @@ with col1:
     st.markdown('<div class="section-title">📸 Detect Your Mood</div>', unsafe_allow_html=True)
     st.markdown('<div class="camera-container">', unsafe_allow_html=True)
 
-    mode = st.radio("", ["📷 Live Webcam", "🖼️ Upload Photo"], horizontal=True)
+    mode = st.radio("Choose input", ["📷 Live Webcam", "🖼️ Upload Photo"], horizontal=True, label_visibility="collapsed")
 
     emotion = None
     scores = {}
@@ -274,7 +274,7 @@ with col1:
             cap.release()
 
     else:
-        uploaded = st.file_uploader("", type=['jpg', 'jpeg', 'png'])
+        uploaded = st.file_uploader("Upload photo", type=['jpg', 'jpeg', 'png'], label_visibility="collapsed")
         if uploaded:
             image = Image.open(uploaded)
             img_array = np.array(image)
