@@ -12,7 +12,7 @@ Real-time emotion detection system that recommends music based on your facial ex
 - Live webcam or photo upload support
 - AI-powered music recommendations
 - Spotify-themed dark UI
-;
+
 ---
 
 ## 🛠️ Tech Stack
