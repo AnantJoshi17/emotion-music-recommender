@@ -9,7 +9,7 @@ Real-time emotion detection system that recommends music based on your facial ex
 ## 🚀 Features
 
 - Detects 7 facial emotions with **87%+ accuracy**
-- Live webcam or photo upload support.
+- Live webcam or photo upload support
 - AI-powered music recommendations
 - Spotify-themed dark UI
 
