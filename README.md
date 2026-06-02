@@ -84,5 +84,3 @@ Open browser at `http://localhost:8501`
 [LinkedIn](https://linkedin.com/in/anantjoshi17) | [GitHub](https://github.com/AnantJoshi17) | [LeetCode](https://leetcode.com/u/anantjoshi17)
 
 ---
-
-**Built with ❤️ using Transfer Learning and Real-Time AI**
