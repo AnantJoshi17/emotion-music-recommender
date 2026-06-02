@@ -4,7 +4,7 @@ Real-time emotion detection system that recommends music based on your facial ex
 
 🔗 **Live Demo:** [moodify-app.streamlit.app](https://moodify-app.streamlit.app)
 
----;
+---
 
 ## 🚀 Features
 
