@@ -14,7 +14,7 @@ Real-time emotion detection system that recommends music based on your facial ex
 - Spotify-themed dark UI with emotion visualization
 
 ---
-;
+
 ## 🛠️ Tech Stack
 
 - **DeepFace** — Pre-trained CNN for emotion classification (Transfer Learning)
