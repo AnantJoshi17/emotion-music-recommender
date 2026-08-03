@@ -4,9 +4,7 @@ import numpy as np
 
 class EmotionDetector:
     def __init__(self):
-        self.face_cascade = cv2.CascadeClassifier(
-            cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
-        )
+        self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
         self.emotion_map = {
             'happy': 'happy',
             'sad': 'sad',
@@ -16,7 +14,7 @@ class EmotionDetector:
             'fear': 'fear',
             'disgust': 'disgust'
         }
-
+    
     def detect_emotion(self, frame):
         try:
             result = DeepFace.analyze(
@@ -25,26 +23,28 @@ class EmotionDetector:
                 enforce_detection=False,
                 silent=True
             )
-            emotion = result[0]['dominant_emotion']
-            scores = result[0]['emotion']
-            return self.emotion_map.get(emotion, 'neutral'), scores
+            
+            if result and len(result) > 0:
+                emotion = result[0]['dominant_emotion']
+                emotion_scores = result[0]['emotion']
+                
+                gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                faces = self.face_cascade.detectMultiScale(gray, 1.3, 5)
+                
+                for (x, y, w, h) in faces:
+                    cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                
+                return emotion, emotion_scores
+            else:
+                return None, {}
         except Exception as e:
-            return 'neutral', {}
-
+            print(f"Error detecting emotion: {e}")
+            return None, {}
+    
     def process_frame(self, frame):
-        rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        emotion, scores = self.detect_emotion(rgb_frame)
-        faces = self.face_cascade.detectMultiScale(
-            cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY),
-            scaleFactor=1.1,
-            minNeighbors=5
-        )
-        for (x, y, w, h) in faces:
-            cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
-            cv2.putText(
-                frame, emotion.upper(),
-                (x, y-10),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                0.9, (0, 255, 0), 2
-            )
-        return frame, emotion, scores
+        emotion, scores = self.detect_emotion(frame)
+        
+        if emotion:
+            return frame, emotion, scores
+        else:
+            return frame, None, {}
