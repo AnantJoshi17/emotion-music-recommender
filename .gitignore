@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Secrets
+.env
+
+# Data you download for evaluate.py
+fer2013/
+archive.zip
+
+# OS
+.DS_Store

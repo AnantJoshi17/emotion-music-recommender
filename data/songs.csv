@@ -1,36 +1,478 @@
-emotion,song_name,artist,spotify_url
-happy,Happy,Pharrell Williams,https://open.spotify.com/track/60nZcImufyMA1MKQY3dcCH
-happy,Can't Stop the Feeling,Justin Timberlake,https://open.spotify.com/track/6KuQTIu1KoTTkLXKrwlLPV
-happy,Uptown Funk,Mark Ronson ft. Bruno Mars,https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS
-happy,Good as Hell,Lizzo,https://open.spotify.com/track/5lC9d4SoZk6piSfiGmVYpA
-happy,Levitating,Dua Lipa,https://open.spotify.com/track/463CkQjx2Zk1yXoBuierM9
-sad,Someone Like You,Adele,https://open.spotify.com/track/4kflIUSv1zB4DYFM9JKP0K
-sad,Let Her Go,Passenger,https://open.spotify.com/track/2YRM2SQzMKOOJ3zaHkPSWg
-sad,Fix You,Coldplay,https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q
-sad,The Night We Met,Lord Huron,https://open.spotify.com/track/3hRV0jL3vUpRrcy398teAU
-sad,Skinny Love,Bon Iver,https://open.spotify.com/track/7oAHtaTbOFMqPMsBqRmXlF
-angry,Killing in the Name,Rage Against the Machine,https://open.spotify.com/track/59WN2psjkt1tyaxjspN8fp
-angry,Break Stuff,Limp Bizkit,https://open.spotify.com/track/5LPoBiVkHBvpDBNKsqWtgp
-angry,Given Up,Linkin Park,https://open.spotify.com/track/2nXJosCool5Gq5ByZkM3SZ
-angry,Headstrong,Trapt,https://open.spotify.com/track/5EquVy50qlQYOEJqQYtTGp
-angry,Bodies,Drowning Pool,https://open.spotify.com/track/3IsOcNGTFOd5sMkCiSgUMr
-neutral,Weightless,Marconi Union,https://open.spotify.com/track/7ygpwy2qP3NbrxVkHvUIgJ
-neutral,Clair de Lune,Debussy,https://open.spotify.com/track/2LD2gT7gwAurzdQDQtILds
-neutral,Comptine d'un autre été,Yann Tiersen,https://open.spotify.com/track/1u8c2t2Cy7UBoG4ArRcF5g
-neutral,Experience,Ludovico Einaudi,https://open.spotify.com/track/1BncfTTxOHmFbxmGSUgSEt
-neutral,River Flows in You,Yiruma,https://open.spotify.com/track/4oFTGMwBvPlFABFaXQOLbp
-surprise,Bohemian Rhapsody,Queen,https://open.spotify.com/track/7tFiyTwD0nx5a1eklYtX2J
-surprise,Thunderstruck,AC/DC,https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj
-surprise,Jump,Van Halen,https://open.spotify.com/track/0eFzmHgDTMFSFQpTkz9oLP
-surprise,Mr. Brightside,The Killers,https://open.spotify.com/track/7d2D2S200NyUE5KYs80PwO
-surprise,Somebody That I Used to Know,Gotye,https://open.spotify.com/track/1qDrWA6lyx8cLECdZE7TV7
-fear,Breathe Me,Sia,https://open.spotify.com/track/3oHWAJSKgCf7o4pMTADUCU
-fear,Mad World,Gary Jules,https://open.spotify.com/track/3JOVTQ5h8HyvI9p0hDTMIM
-fear,Sound of Silence,Simon & Garfunkel,https://open.spotify.com/track/2BE64GzBQwFJaUFBJVMwCT
-fear,Hurt,Johnny Cash,https://open.spotify.com/track/28cnXtME493s8LGsEcnFKj
-fear,Black,Pearl Jam,https://open.spotify.com/track/4MBHBnJqhABfCkXd9PQIO6
-disgust,Creep,Radiohead,https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r
-disgust,Fake Plastic Trees,Radiohead,https://open.spotify.com/track/1e7dBaF8FPbDMnrO5V4Tmu
-disgust,Loser,Beck,https://open.spotify.com/track/3LF4TZjhFxmPiGa9qdZBBP
-disgust,Ironic,Alanis Morissette,https://open.spotify.com/track/1pqSPCKKBFBjKFkMYeGPPh
-disgust,Passive,A Perfect Circle,https://open.spotify.com/track/4nE2UzO4HVZD8UXWQXFHFL
+song_name,artist,track_id,popularity,valence,energy
+Dance Monkey,Tones and I,2XU0oxnq2qxCpomAAuJY8K,100,0.513,0.588
+ROXANNE,Arizona Zervas,696DnlkuDOXcMAnKlTgXXK,99,0.457,0.601
+The Box,Roddy Ricch,0nbXyq5TXYPCO7pr3N8S4I,98,0.642,0.586
+Circles,Post Malone,21jGcNKet2qwijlDFuPiPb,98,0.553,0.762
+Blinding Lights,The Weeknd,0sf12qNH5qcw8qpgymFOqD,98,0.345,0.796
+Tusa,KAROL G,7k4t7uLgtOxPwTpFmtJNTY,98,0.574,0.715
+Memories,Maroon 5,2b8fOow8UzyDFAE27YhOZM,98,0.575,0.32
+Don't Start Now,Dua Lipa,6WrI0LAC5M1Rw2MnX2ZvEg,97,0.677,0.793
+everything i wanted,Billie Eilish,3ZCTVFBt2Brf31RLEnCkWJ,97,0.243,0.225
+Falling,Trevor Daniel,4TnjEaWOeW0eKTKIEvJyCa,97,0.236,0.43
+RITMO (Bad Boys For Life),The Black Eyed Peas,6cy3ki60hLwimwIje7tALf,96,0.667,0.716
+Yummy,Justin Bieber,41L3O37CECZt3N7ziG2z7l,95,0.495,0.519
+bad guy,Billie Eilish,2Fxmhks0bxGSBdJ92vM42m,95,0.562,0.425
+HIGHEST IN THE ROOM,Travis Scott,3eekarcy7kvN4yt5ZFzltW,94,0.0605,0.427
+hot girl bummer,blackbear,7aiClxsDWFRQ0Kzk5KI5ku,94,0.678,0.559
+Someone You Loved,Lewis Capaldi,7qEHsqek33rTcFNT9PFqLf,94,0.446,0.405
+Ride It,Regard,2tnVG71enUj33Ic2nFN6kZ,94,0.884,0.751
+My Oh My (feat. DaBaby),Camila Cabello,3yOlyBJuViE2YSGn3nVE1K,94,0.383,0.491
+China,Anuel AA,2ksOAxtIxY8yElEWw8RhgK,93,0.609,0.808
+Heartless,The Weeknd,57vxBYXtHMk6H1aD29V7PU,93,0.198,0.75
+Vete,Bad Bunny,5DxXgozhkPLgrbKFY91w0c,93,0.526,0.672
+Señorita,Shawn Mendes,0TK2YIli7K1leLovkQiNik,93,0.75,0.54
+BOP,DaBaby,6Ozh9Ok6h4Oi1wUSLtBseN,93,0.836,0.787
+Life Is Good (feat. Drake),Future,5yY9lUy8nbvjM1Uyo1Uqoc,93,0.508,0.609
+Lose You To Love Me,Selena Gomez,1HfMVBKM75vxSfsQ5VefZ5,93,0.0916,0.34
+Fantasias,Rauw Alejandro,6mAN61JH0dzyZpWslS11jy,92,0.788,0.703
+Bandit (with YoungBoy Never Broke Again),Juice WRLD,6Gg1gjgKi2AK4e0qzsR7sd,92,0.425,0.631
+Lucid Dreams,Juice WRLD,285pBltuF7vW8TeWk8hdRR,92,0.218,0.566
+No Idea,Don Toliver,3VyjsVV24RmBIbWJAeUJNu,92,0.35,0.614
+Lalala,Y2K,51Fjme0JiitpyXKuyQiCDo,91,0.496,0.391
+Adore You,Harry Styles,1M4qEo4HE3PRaCOM7EXNJq,91,0.569,0.771
+How Do You Sleep?,Sam Smith,6b2RcmUt1g9N9mQ3CbjX2Y,91,0.345,0.682
+Futsal Shuffle 2020,Lil Uzi Vert,2Ec33AVlkTTq8BHFgBTdQs,91,0.296,0.457
+Lose Control,MEDUZA,7CHi4DtfK4heMlQaudCuHK,91,0.529,0.526
+"10,000 Hours (with Justin Bieber)",Dan + Shay,2wrJq5XKLnmhRXHIAf9xBa,91,0.43,0.63
+Ayy Macarena,Tyga,6LcauUZjF1eXQrgqMUecHX,91,0.715,0.63
+South of the Border (feat. Camila Cabello & Cardi B),Ed Sheeran,4vUmTMuQqjdnvlZmAH61Qk,91,0.668,0.621
+LA CANCIÓN,J Balvin,0fea68AdmYNygeTGI4RC18,91,0.429,0.646
+Suicidal,YNW Melly,1iSqfoUFnQwV0QW1EfUit8,90,0.235,0.369
+I Don't Care (with Justin Bieber),Ed Sheeran,3HVWdVOQ0ZA45FuZGSfvns,90,0.842,0.675
+Ransom,Lil Tecca,1lOe9qE0vR9zwWQAOk6CoO,90,0.226,0.642
+7 rings,Ariana Grande,6ocbgoVGwYJhOv1GgI9NsF,90,0.327,0.317
+Callaita,Bad Bunny,2TH65lNHgvLxCKXM3apjxI,90,0.244,0.624
+Ballin' (with Roddy Ricch),Mustard,3QzAOrNlsabgbMwlZt7TAY,90,0.244,0.545
+Trampoline (with ZAYN),SHAED,1iQDltZqI7BXnHrFy4Qo1k,90,0.498,0.459
+Sigues Con El,Dimelo Flow,7sQKy5vlPQllr0k9IjYJv3,90,0.676,0.668
+Goodbyes (feat. Young Thug),Post Malone,0t3ZvGKlmYmVsDzBJAXK8C,90,0.163,0.653
+Whine Up,Nicky Jam,2pWOMNQJW3g2zmGjP0Vkb0,90,0.662,0.665
+Adicto (with Anuel AA & Ozuna),Tainy,3jbT1Y5MoPwEIpZndDDwVq,90,0.623,0.836
+Que Tire Pa Lante,Daddy Yankee,6RyaV7owmVU6fzEPE17sF1,90,0.708,0.901
+Before You Go,Lewis Capaldi,7ce20yLkzuXXLUhzIDoZih,90,0.183,0.575
+All I Want for Christmas Is You,Mariah Carey,0bYg9bo50gSsH3LtXe2SQn,90,0.346,0.625
+Watermelon Sugar,Harry Styles,1e9oZCCiX42nJl0AcqriVo,90,0.557,0.816
+Happier,Marshmello,2dpaYNEQHiRxtZbfNsse99,89,0.671,0.792
+Yellow Hearts,Ant Saunders,2W4yABdLc4Jnds67Poi5Nl,89,0.695,0.438
+Beautiful People (feat. Khalid),Ed Sheeran,4evmHXcjt3bTUHD1cvny97,89,0.548,0.648
+lovely (with Khalid),Billie Eilish,0u2P5u6lvoDfwTYjAADbn4,89,0.12,0.296
+Aventura,Lunay,37zdqI4r1gswIzczSBkRon,89,0.876,0.726
+It's You,Ali Gatie,5DqdesEfbRyOlSS3Tf6c29,89,0.397,0.463
+Tutu,Camilo,1nocRtwyNPVtGcIJqfgdzZ,88,0.94,0.832
+Money In The Grave (Drake ft. Rick Ross),Drake,5ry2OE6R2zPQFDO85XkgRb,88,0.101,0.502
+VIBEZ,DaBaby,0fySG6A6qLE8IvDpayb5bM,88,0.777,0.652
+Piece Of Your Heart,MEDUZA,1DFD5Fotzgn6yYXkYsKiGs,88,0.631,0.744
+Quizas,Rich Music LTD,5Id5B3dxJZhPcV9GzgYZZe,88,0.677,0.815
+Believer,Imagine Dragons,0pqnGHJpmpxLKifKRmU6WP,88,0.666,0.78
+Hate Me (with Juice WRLD),Ellie Goulding,6kls8cSlUyHW2BUOkDJIZE,88,0.759,0.768
+Say So,Doja Cat,3Dv1eDb0MEgF93GpLXlucZ,88,0.786,0.673
+rockstar (feat. 21 Savage),Post Malone,0e7ipj03S05BNilyu5bRzt,88,0.129,0.52
+SUGAR,BROCKHAMPTON,6U0FIYXCQ3TGrk4tFpLrEA,88,0.516,0.538
+Si Te Vas,Sech,6Y4PDQv4XjYjHLeLmvyOt0,88,0.554,0.644
+Blanco,J Balvin,2rc7BkzO8qepMFAxHtOrXc,88,0.593,0.706
+Woah,Lil Baby,598yNsG1JFrGd4n2kMoz7F,88,0.43,0.602
+Robbery,Juice WRLD,6Hj9jySrnFppAI0sEMCZpJ,88,0.578,0.692
+"Yo x Ti, Tu x Mi",ROSALÍA,7BlBVFwvbWvcwNcUarQmjk,88,0.579,0.759
+If The World Was Ending (feat. Julia Michaels),JP Saxe,2kJwzbxV2ppxnQoYw4GLBZ,88,0.604,0.473
+Rare,Selena Gomez,7HMmFQsKsljwTw8bS7lu19,88,0.631,0.545
+Loco Contigo (feat. J. Balvin & Tyga),DJ Snake,6osaMSJh9NguagEDQcZaKx,88,0.371,0.758
+Own It (feat. Ed Sheeran & Burna Boy),Stormzy,4QPEwDdOMhY7rNS05mTyMR,88,0.359,0.781
+Without Me,Halsey,5p7ujcrUXASCNwRaWNHR1C,88,0.533,0.488
+Shallow,Lady Gaga,2VxeLyX666F8uXCJ0dZF8B,88,0.323,0.385
+Indeciso,Reik,59s0s39NFWScuHDbHytI14,88,0.896,0.748
+July,Noah Cyrus,5a6pdCHlWS2ekOOQ70QnAr,88,0.321,0.186
+Sunflower - Spider-Man: Into the Spider-Verse,Post Malone,3KkXRkHbMCARz0aVfEt68P,88,0.913,0.479
+Falling,Harry Styles,1ZMiCix7XSAbfAJlEZWMCp,88,0.0592,0.267
+Up All Night,Khalid,1mpD5Q8IM32I4bF6eCpU74,87,0.669,0.712
+Sweet but Psycho,Ava Max,25sgk305KZfyuqVBQIahim,87,0.628,0.704
+Graveyard,Halsey,6V9fHiv84WlVTg7CSnIVY2,87,0.187,0.583
+Con Altura,ROSALÍA,2qG5sZ7Si6sdK74qLxedYM,87,0.746,0.689
+Better Now,Post Malone,7dt6x5M1jzdTEt8oCbisTK,87,0.341,0.578
+Good News,Mac Miller,3ClBKQkKoaUQ6UOhe2xlJK,87,0.241,0.32
+Liar,Camila Cabello,7LzouaWGFCy4tkXDOOnEyM,87,0.652,0.498
+bury a friend,Billie Eilish,4SSnFejRGlZikf02HLewEF,87,0.196,0.389
+Suge,DaBaby,2gwkD6igEhQbDQegRCcdoB,87,0.844,0.662
+Con Calma,Daddy Yankee,5w9c2J52mkdntKOmRLeM2m,87,0.656,0.86
+Sucker,Jonas Brothers,22vgEDb5hykfaTwLuskFGD,87,0.952,0.734
+Nice To Meet Ya,Niall Horan,3cphb8kdsjElYR7r5icK3H,87,0.392,0.841
+Take What You Want (feat. Ozzy Osbourne & Travis Scott),Post Malone,7CZyCXKG6d5ALeq41sLzbw,87,0.272,0.8
+Psycho,Red Velvet,3CYH422oy1cZNoo0GTG1TK,87,0.405,0.666
+Higher Love,Kygo,6oJ6le65B3SEqPwMRNXWjY,87,0.404,0.678
+"thank u, next",Ariana Grande,3e9HZxeyfWwjeyPAMmWSSQ,87,0.412,0.653
+SAD!,XXXTENTACION,3ee8Jmje8o58CHK66QrVC2,87,0.473,0.613
+SICKO MODE,Travis Scott,2xLMifQCjDGFmkHkpNLD9h,87,0.446,0.73
+Dancing With A Stranger (with Normani),Sam Smith,6Qs4SXO9dwPj5GKvVOv8Ki,87,0.347,0.52
+OUT WEST (feat. Young Thug),JACKBOYS,6gi6y1xwmVszDWkUqab1qw,87,0.309,0.591
+Perfect,Ed Sheeran,0tgVpDi06FyKpA1z0VMD4v,86,0.168,0.448
+All Girls Are The Same,Juice WRLD,4VXIryQMWpIdGgYR4TrjT1,86,0.203,0.529
+all the good girls go to hell,Billie Eilish,6IRdLKIyS4p7XNiP8r6rsx,86,0.569,0.444
+Turn Me On (feat. Vula),Riton,0qaWEvPkts34WF68r8Dzx9,86,0.517,0.828
+Bruises,Lewis Capaldi,4Of7rzpRpV1mWRbhp5rAqG,86,0.361,0.308
+God's Plan,Drake,6DCZcSspjsKoFjzjrWoCdn,86,0.357,0.449
+Let Me Down Slowly,Alec Benjamin,2qxmye6gAegTMjLKEBoR3d,86,0.483,0.557
+3 Nights,Dominic Fike,1tNJrcVe6gwLEiZCtprs1u,86,0.877,0.518
+Moonlight,XXXTENTACION,0JP9xo3adEtGSdUEISiszL,86,0.711,0.537
+Pa' Olvidarme De Ella,Piso 21,1cVlW9WQiGlFdWUXFdFZGh,86,0.637,0.542
+QUE PRETENDES,J Balvin,25ZAibhr3bdlMCLmubZDVt,86,0.939,0.791
+Get You The Moon (feat. Snøw),Kina,4ZLzoOkj0MPWrTLvooIuaa,86,0.0895,0.235
+High Hopes,Panic! At The Disco,1rqqCSm0Qe4I9rUvWncaom,86,0.681,0.904
+Shape of You,Ed Sheeran,7qiZfU4dY1lWllzX7mPBI3,86,0.931,0.652
+MIDDLE CHILD,J. Cole,2JvzF1RMd7lE3KmFlsyZD8,86,0.463,0.364
+Look At Her Now,Selena Gomez,4yI3HpbSFSgFZtJP2kDe5m,86,0.55,0.564
+TOES (feat. Lil Baby & Moneybagg Yo),DaBaby,2FvD20Z8aoWIePi7PoN8sG,86,0.542,0.582
+Jocelyn Flores,XXXTENTACION,7m9OqQk4RVRkw9JJdeAw96,86,0.437,0.391
+11 PM,Maluma,7KbF6AdprOXEEHlsq11Z6d,86,0.68,0.712
+You should be sad,Halsey,2usxQITOSDqvkYiI0oIwao,86,0.324,0.585
+You Need To Calm Down,Taylor Swift,6RRNNciQGZEXnqk8SQ9yv5,86,0.714,0.671
+Only Human,Jonas Brothers,0DiDStADDVh3SvAsoJAFMk,86,0.874,0.496
+Mean It,Lauv,3GRSqlALWISqLeNncZMbpX,85,0.336,0.45
+Thunder,Imagine Dragons,1zB4vmk8tFRmM9UULNzbLB,85,0.288,0.822
+Don't Call Me Up,Mabel,5WHTFyqSii0lmT9R21abT8,85,0.234,0.881
+Takeaway,The Chainsmokers,3g0mEQx3NTanacLseoP0Gw,85,0.351,0.511
+Candy,Doja Cat,1VJwtWR6z7SpZRwipI12be,85,0.209,0.516
+No Guidance (feat. Drake),Chris Brown,6XHVuErjQ4XNm6nDPVCxVX,85,0.137,0.454
+i love you,Billie Eilish,6CcJMwBtXByIz4zQLzFkKc,85,0.12,0.131
+Never Really Over,Katy Perry,5PYQUBXc7NYeI1obMKSJK0,85,0.385,0.882
+Closer (feat. Halsey),The Chainsmokers,7BKLCZ1jbUBVqRi2FVlTVw,85,0.661,0.524
+ocean eyes,Billie Eilish,7hDVYcQq6MxkdJGweuCtl9,85,0.169,0.363
+223's (feat. 9lokknine),YNW Melly,4sjiIpEv617LDXaidKioOI,85,0.695,0.547
+idontwannabeyouanymore,Billie Eilish,41zXlQxzTi6cGAjpOXyLYH,85,0.247,0.412
+Family,The Chainsmokers,3TKpJrY9q49Mj1JOsM9zGL,85,0.374,0.607
+Say You Won't Let Go,James Arthur,5uCax9HTNlzGybIStD3vDh,85,0.494,0.557
+Qué Pena,Maluma,5099x34vBakWpGkHourFxP,85,0.858,0.661
+SENTADÃO,Pedro Sampaio,4lKuzrdZrJuCAedbIslF3A,85,0.924,0.869
+Boy With Luv (feat. Halsey),BTS,5KawlOMHjWeUjQtnuRs22c,85,0.798,0.862
+Follow God,Kanye West,2QpGZOhTCHHiKmpSO9FW4h,85,0.434,0.9
+One Kiss (with Dua Lipa),Calvin Harris,7ef4DlsgrMEH11cDZd32M6,85,0.592,0.862
+All of Me,John Legend,3U4isOIWM3VvDubwSI3y7a,85,0.331,0.264
+Going Bad (feat. Drake),Meek Mill,2IRZnDFmlqMuOrYOLnZZyc,85,0.544,0.496
+"Alone, Pt. II",Alan Walker,0bMbDctzMmTyK2j74j3nF3,85,0.608,0.668
+Can We Kiss Forever?,Kina,58wyJLv6yH1La9NIZPl3ne,85,0.124,0.128
+Fantasía,Ozuna,40rXWke6SnXiGkSmaT8ZUr,85,0.781,0.719
+Youngblood,5 Seconds of Summer,2iUXsYOEPhVqEBwsqP70rE,84,0.152,0.854
+"fuck, i'm lonely (with Anne-Marie) - from “13 Reasons Why: Season 3”",Lauv,322tcqPhma7F6hfCeLisx0,84,0.678,0.558
+Let Me Know (I Wonder Why Freestyle),Juice WRLD,3wwo0bJvDSorOpNfzEkfXx,84,0.383,0.537
+Never Seen The Rain,Tones and I,0JQ5MbyriK6ruD3t6RZ7ix,84,0.271,0.464
+Starboy,The Weeknd,7MXVkk9YMctZqd1Srtv4MB,84,0.486,0.588
+Eastside (with Halsey & Khalid),benny blanco,0d2iYfpKoM0QCKvcLCkBao,84,0.319,0.68
+Pop Out (feat. Lil Tjay),Polo G,6uFn47ACjqYkc0jADwEdj1,84,0.261,0.639
+Drip Too Hard (Lil Baby & Gunna),Lil Baby,78QR3Wp35dqAhFEc2qAGjE,84,0.389,0.662
+EARFQUAKE,"Tyler, The Creator",5hVghJ4KaYES3BFUATCYn0,84,0.413,0.498
+Mistletoe,Justin Bieber,7xapw9Oy21WpfEcib2ErSA,84,0.854,0.56
+If I Can't Have You,Shawn Mendes,6LsAAHotRLMOHfCsSfYCsz,84,0.864,0.809
+A Gente Fez Amor - Ao Vivo,Gusttavo Lima,3tv697PZNnaQN0Mn2zGhS5,84,0.827,0.937
+Make No Sense,YoungBoy Never Broke Again,6klLvorLoo1sxvZcjJIY8I,84,0.962,0.733
+In My Mind,Dynoro,0E9ZjEAyAwOXZ7wJC0PD33,84,0.163,0.77
+Fuck Love (feat. Trippie Redd),XXXTENTACION,7AQim7LbvFVZJE3O8TYgf2,84,0.329,0.533
+Que Calor (feat. J Balvin & El Alfa),Major Lazer,1sviDBcAqVOxMXq4xITVEs,84,0.46,0.885
+Panini,Lil Nas X,6fTt0CH2t0mdeB2N9XFG5r,84,0.475,0.594
+Congratulations,Post Malone,3a1lNhkSLSkpJE4MSHpDu9,84,0.492,0.804
+Photograph,Ed Sheeran,1HNkqx9Ahdgi1Ixy2xkKkL,84,0.201,0.379
+Loyal (feat. Drake),PARTYNEXTDOOR,5bvnqVuq7UFl0txSlHpsfS,84,0.203,0.53
+Motivation,Normani,0rIAC4PXANcKmitJfoqmVm,83,0.881,0.887
+Take on Me,a-ha,2WfaOiMkCvy7F5fcp2zZ8L,83,0.876,0.902
+Don't Stop Me Now - 2011 Mix,Queen,5T8EDUDqKcs6OSOwEsfqG7,83,0.609,0.868
+Immortal,21 Savage,4IO8X9W69dIQe0EC5ALXhq,83,0.663,0.87
+Giant (with Rag'n'Bone Man),Calvin Harris,5itOtNx0WxtJmi1TQ3RuRd,83,0.606,0.887
+Treat You Better,Shawn Mendes,3QGsuHI8jO1Rx4JWLUh9jd,83,0.747,0.819
+no tears left to cry,Ariana Grande,2qT1uLXPVPzGgFOx4jtEuo,83,0.354,0.713
+You Are The Reason,Calum Scott,69vToJ9BMbbLlFZo7k7A7B,83,0.218,0.235
+FRIENDS,Marshmello,08bNPGLD8AhKpnnERrAc6G,83,0.534,0.88
+Thinking out Loud,Ed Sheeran,34gCuhDGsG4bRPIf9bb02f,83,0.591,0.445
+Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy),Martin Garrix,7Feaw9WAEREY0DUOSXJLOM,83,0.316,0.723
+"Taki Taki (with Selena Gomez, Ozuna & Cardi B)",DJ Snake,4w8niZpiMy6qz1mntFA5uM,83,0.617,0.801
+Livin' On A Prayer,Bon Jovi,37ZJ0p5Jm13JPevGcx4SkF,83,0.795,0.887
+Love Yourself,Justin Bieber,50kpGaPAhYJ3sGmk6vplg0,83,0.515,0.378
+Used To Love (with Dean Lewis),Martin Garrix,7pWK1kMgHy5lNNiIfuRbkP,83,0.392,0.693
+Somebody,Internet Money,735RSTb2xbtWbDtKD9XDYi,83,0.333,0.671
+One Dance,Drake,1zi7xx7UVEFkmKfv06H8x0,83,0.37,0.625
+On My Way,Alan Walker,4n7jnSxVLd8QioibtTDBDq,83,0.297,0.689
+Be Alright,Dean Lewis,3EPXxR3ImUwfayaurPi3cm,83,0.443,0.586
+Baila Conmigo (feat. Kelly Ruiz),Dayvi,4Clmg1g8n2yBYG13Z1oSdG,83,0.556,0.972
+Africa,TOTO,2374M0fQpWi3dLnB54qaLX,83,0.732,0.373
+'Till I Collapse,Eminem,4xkOaSrkexMciUUogZKVTS,83,0.1,0.847
+In the End,Linkin Park,60a0Rd6pjrkxjPbaKzXjfq,83,0.4,0.864
+The Hills,The Weeknd,7fBv7CLKzipRk6EC6TWHOB,83,0.138,0.565
+ORANGE SODA,Baby Keem,5FkoSXiJPKTNyYgALRJFhD,83,0.107,0.564
+The London (feat. J. Cole & Travis Scott),Young Thug,7DcvwMAiqKJQD1rrdfxSDx,83,0.179,0.586
+"All I Want - From ""High School Musical: The Musical: The Series""",Olivia Rodrigo,4Yxc55NX3tAXC2mHRAhtcW,83,0.129,0.43
+Here With Me,Marshmello,5icOoE6VgqFKohjWWNp0Ac,83,0.181,0.565
+MIA (feat. Drake),Bad Bunny,116H0KvKr2Zl4RPuVBruDO,83,0.158,0.539
+Bad Liar,Imagine Dragons,2RSHsoi04658QL5xgQVov3,83,0.0827,0.637
+Can't Hold Us - feat. Ray Dalton,Macklemore & Ryan Lewis,3bidbhpOYeV4knp8AIu8Xn,83,0.847,0.922
+xanny,Billie Eilish,4QIo4oxwzzafcBWkKjDpXY,83,0.0528,0.125
+Make It Right (feat. Lauv),BTS,314ZkcV7oLWG8yWE7LABvH,83,0.345,0.685
+Eleven,Khalid,1ToprX3cpBiXoAe5eNSk74,83,0.115,0.396
+Every Breath You Take,The Police,1JSTJqkT5qHq8MDJnJbRE1,83,0.74,0.452
+Psycho (feat. Ty Dolla $ign),Post Malone,3swc6WTsr7rl9DqQKQA55C,83,0.459,0.56
+Highway to Hell,AC/DC,2zYzyRzz6pRmhPzyfMEC8s,83,0.422,0.913
+SOS (feat. Aloe Blacc),Avicii,2x0RZdkZcD8QRI53XT4GI5,83,0.376,0.645
+Pumped Up Kicks,Foster The People,7w87IxuO7BDcJ3YUqCyMTT,83,0.965,0.71
+Sweet Child O' Mine,Guns N' Roses,7o2CTH4ctstm8TNelqjb51,82,0.63,0.91
+"Hey, Soul Sister",Train,4HlFJV71xXKIGcU3kRyttv,82,0.795,0.886
+Love The Way You Lie,Eminem,15JINEqzVMv3SvJTAXAKED,82,0.641,0.925
+Another One Bites The Dust - Remastered 2011,Queen,5vdp5UmvTsnMEMESIF2Ym7,82,0.754,0.528
+Faucet Failure,Ski Mask The Slump God,1ThmUihH9dF8EV08ku5AXN,82,0.615,0.552
+There's Nothing Holdin' Me Back,Shawn Mendes,7JJmb5XwzOO8jgpou264Ml,82,0.969,0.813
+B11 (feat. Myke Towers),Rvssian,4o1DxRjMCHDwBiOKv88rOl,82,0.195,0.717
+Creep,Radiohead,6b2oQwSGFkzsMtQruIWm2p,82,0.104,0.43
+Muévelo,Nicky Jam,4VgYtXCVJ7IbWAZ5ryfvEQ,82,0.919,0.807
+Writing on the Wall (feat. Post Malone & Cardi B),French Montana,7x9nXsowok1JszkVztI5NI,82,0.497,0.836
+No Se Me Quita (feat. Ricky Martin),Maluma,1GBLO0NFODuL31A5fgw0uR,82,0.853,0.869
+Fresa,TINI,4BCPItsB94KDLuERZT3aNM,82,0.864,0.866
+Secreto,Anuel AA,5W83ErFkO3aKAIS1WMi6u0,82,0.706,0.803
+you were good to me,Jeremy Zucker,4CxFN5zON70B3VOPBYbd6P,82,0.206,0.0848
+I'm Yours,Jason Mraz,1EzrEOXmMH3G43AXT1y7pA,82,0.718,0.457
+Uptown Funk,Mark Ronson,32OlwWuMpZ6b0aN2RZOeMS,82,0.928,0.609
+God Is A Dancer (with Mabel),Tiësto,6fenHIxXuuzKB55wY4WCHP,82,0.833,0.747
+FML,Arizona Zervas,6lruHh1jF7ezgbLv72xYmf,82,0.616,0.575
+That's What I Like,Bruno Mars,0KKkJNfGyhkQ5aFogxQAPU,82,0.86,0.56
+When I Was Your Man,Bruno Mars,0nJW01T7XtvILxQgC5J7Wh,82,0.387,0.28
+Wolves,Selena Gomez,0tBbt8CrmxbjRP0pueQkyU,82,0.306,0.804
+Death (feat. DaBaby),Trippie Redd,6YfTl5YupXOQBKiJJLrxcw,82,0.613,0.82
+my strange addiction,Billie Eilish,3Tc57t9l2O8FwQZtQOvPXK,82,0.563,0.305
+Hotel California - 2013 Remaster,Eagles,40riOy7x9W7GXjyGp4pjAv,82,0.609,0.508
+Shut Up and Dance,WALK THE MOON,0kzw2tRyuL9rzipi5ntlIy,82,0.619,0.866
+Slide,H.E.R.,2rTnVB1bvwxHtaIl4uVu7f,81,0.196,0.469
+Scared to Be Lonely,Martin Garrix,3ebXMykcMXOcLeJ9xZ17XH,81,0.195,0.54
+Dusk Till Dawn - Radio Edit,ZAYN,1j4kHkkpqZRBwE0A4CN4Yv,81,0.0967,0.437
+Better,Khalid,6zeeWid2sgw4lap2jV61PZ,81,0.112,0.552
+Fix You,Coldplay,7LVHVU3tWfcxj5aiPFEW4Q,81,0.123,0.418
+Sixteen,Ellie Goulding,4PkIDTPGedm0enzdvilLNd,81,0.541,0.801
+Don't Let Me Down,The Chainsmokers,1i1fxkWeaMmKEB4T7zqbzK,81,0.422,0.869
+What I Like About You (feat. Theresa Rex),Jonas Blue,4NSW0Km5ZG60L8FthUebPJ,81,0.553,0.8
+Losing My Religion,R.E.M.,31AOj9sFz2gM0O3hMARRBx,81,0.803,0.855
+"i hate u, i love u (feat. olivia o'brien)",gnash,7vRriwrloYVaoAe3a9wJHe,81,0.18,0.275
+Devil Eyes,Hippie Sabotage,7MiZjKawmXTsTNePyTfPyL,81,0.199,0.396
+Instagram,Dimitri Vegas & Like Mike,0U6bQIAh6MCGo1xjbIIx2S,81,0.95,0.906
+Numb,Linkin Park,2nLtzopw4rPReszdYBJU6h,81,0.243,0.863
+Under the Bridge,Red Hot Chili Peppers,3d9DChrdc6BOeFsbrZ3Is0,81,0.458,0.345
+Heathens,Twenty One Pilots,6i0V12jOa3mr6uu4WYhUBr,81,0.548,0.396
+Yes Indeed,Lil Baby,6vN77lE9LK6HP2DewaN6HZ,81,0.562,0.346
+Without You (feat. Sandro Cavazza),Avicii,6Pgkp4qUoTmJIPn7ReaGxL,81,0.295,0.858
+Thunderstruck,AC/DC,57bgtoPSgt236HzfBOd8kj,81,0.257,0.889
+Sweater Weather,The Neighbourhood,2QjOHCTQ1Jl3zawyYOpxh6,81,0.398,0.807
+Redbone,Childish Gambino,0wXuerDYiBnERgIpbb3JBR,81,0.572,0.347
+Some Say,Nea,4poybupy26pTWPr9zY1i7h,81,0.482,0.342
+Billie Jean,Michael Jackson,5ChkMS8OtdzJeqyybCc9R5,81,0.847,0.654
+Sunday Best,Surfaces,1Cv1YLb4q0RzL6pybtaMLo,81,0.694,0.525
+Easier,5 Seconds of Summer,4tNXntkAzQ5A2dfYRYGIIQ,81,0.618,0.428
+Let Me Love You,DJ Snake,0lYBSQXN6rCTvUZvg9S0lU,81,0.163,0.716
+UP THE SMOKE (with Offset),Stunna 4 Vegas,09TZsMHXEtQkdmMJZPLKup,81,0.896,0.765
+Bad Bad Bad (feat. Lil Baby),Young Thug,1GeNui6m825V8jP4uKiIaH,81,0.892,0.596
+Sweet Home Alabama,Lynyrd Skynyrd,7e89621JPkKaeDSTQ3avtg,81,0.886,0.605
+Sweet Dreams (Are Made of This) - Remastered,Eurythmics,1TfqLAPs4K3s2rJMoCokcS,81,0.875,0.711
+listen before i go,Billie Eilish,0tMSssfxAL2oV8Vri0mFHE,81,0.082,0.0561
+HIP,Mamamoo,24nK8tW7Pt3Inh2utttuoG,81,0.824,0.731
+Smells Like Teen Spirit,Nirvana,1f3yAtsJtY87CTmM8RLnxf,81,0.72,0.912
+Amanece,Anuel AA,1LiN0Z98FkR1t0m8KmLcAH,80,0.889,0.631
+Don't,Bryson Tiller,3pXF1nA74528Edde4of9CC,80,0.19,0.356
+Chop Suey!,System Of A Down,2DlHlPMa4M17kufBvI2lEN,80,0.286,0.934
+In the Name of Love,Martin Garrix,23L5CiUhw2jV1OIMwthR3S,80,0.168,0.519
+Umbrella,Rihanna,49FYlytm3dAAraYgpoJZux,80,0.575,0.829
+All Around The World (La La La),R3HAB,02itaCXOdC54J0ISjqqFAp,80,0.52,0.859
+I Feel It Coming,The Weeknd,3dhjNA0jGA8vHBQ1VdD6vV,80,0.585,0.819
+Just the Way You Are,Bruno Mars,7BqBn9nzAq8spo5e7cZ0dJ,80,0.434,0.843
+I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,2tUBqZG2AbRi7Q0BIrVrEj,80,0.867,0.824
+Can't Stop,Red Hot Chili Peppers,3ZOEytgrvLwQaqXreDs2Jx,80,0.875,0.938
+Runaway,Sebastian Yatra,7BuSE9uTIw931wtZYzvZcQ,80,0.934,0.851
+Love Songs - Bonus,Kaash Paige,6qL5UWxRSQYml9O99ozoLv,80,0.453,0.355
+8,Billie Eilish,6X29iaaazwho3ab7GNue5r,80,0.462,0.235
+emotions,iann dior,5ls62WNKHUUrdF3r1cv83T,80,0.163,0.63
+STARGAZING,Travis Scott,7wBJfHzpfI3032CSD7CE2m,80,0.0564,0.789
+Heaven,Avicii,0vrmHPfoBadXVr2n0m1aqZ,80,0.516,0.873
+my boy,Billie Eilish,1RGasjWLZ4qMN7wbtkLa3u,80,0.324,0.394
+Hey There Delilah,Plain White T's,4RCWB3V8V0dignt99LZ8vH,80,0.298,0.291
+Bank Account,21 Savage,2fQrGHiQOvpL9UgPvtYy6G,80,0.376,0.346
+Kenny G,Matuê,3MkdA6vwF0ifRl86yzTlJW,79,0.152,0.767
+Sex on Fire,Kings of Leon,0ntQJM78wzOLVeCUAW7Y45,79,0.374,0.905
+Someone Like You,Adele,6QPKYGnAW9QozVz2dSWqRg,79,0.288,0.321
+Little Do You Know,Alex & Sierra,1almCHdsfikRPfVB9VrEdT,79,0.37,0.292
+hostage,Billie Eilish,1WsEgieHsWWndAzLkmV105,79,0.0394,0.123
+Who Needs Love,Trippie Redd,2ktxr00GpTtbMNeBjNeY8D,79,0.874,0.516
+Wrong Direction,Hailee Steinfeld,7GCVboEDzfL3NKp1NrAgHR,79,0.188,0.388
+Brown Eyed Girl,Van Morrison,3yrSvpt2l1xhsV9Em88Pul,79,0.907,0.583
+Jealous,Labrinth,4L2K7JKseFCBoHMZEAszW0,79,0.0935,0.155
+Best Part (feat. H.E.R.),Daniel Caesar,1RMJOxR6GRPsBHL8qeC2ux,79,0.436,0.364
+Falling Like The Stars,James Arthur,15xWRPHQMeqgdkGzInx3PY,79,0.19,0.351
+Come Together - Remastered 2009,The Beatles,2EqlS6tkEnglzr7tkKAAYD,79,0.187,0.376
+La Cama,Lunay,5CQzOnFWI0liUblbHYVNge,79,0.817,0.904
+Nur zur Info,Ufo361,6Y7ZEVr7lgO8FKGk2vZ2hi,79,0.227,0.365
+Mr. Blue Sky,Electric Light Orchestra,2RlgNHKcydI9sayD2Df2xp,79,0.477,0.338
+20/20,Lil Tjay,4Hqh0dS4x07zuRw6eBTO7p,79,0.536,0.336
+Centuries,Fall Out Boy,04aAxqtGp5pv12UXAg4pkq,79,0.56,0.858
+"Happy - From ""Despicable Me 2""",Pharrell Williams,60nZcImufyMA1MKQY3dcCH,79,0.962,0.822
+Should I Stay or Should I Go - Remastered,The Clash,39shmbIHICJ2Wxnk1fPSdz,79,0.816,0.833
+Vor der Tür,Gzuz,2LgsKzO8lCeXk0TMd9veWW,79,0.197,0.726
+Nevermind,Dennis Lloyd,63SevszngYpZOwf63o61K4,79,0.0793,0.688
+I Forgot That You Existed,Taylor Swift,43rA71bccXFGD4C8GOpIlN,79,0.541,0.316
+Wannabe,Spice Girls,1Je1IMUlBXcx1Fz0WE7oPT,79,0.891,0.864
+Stairway to Heaven - Remaster,Led Zeppelin,5CQ30WqJwcep0pYcV4AMNc,78,0.197,0.34
+A Sky Full of Stars,Coldplay,0FDzzruyVECATHXKHFs9eJ,78,0.153,0.636
+Say Something,A Great Big World,6Vc5wAMmXdKIAM7WUoEb7N,78,0.0765,0.147
+Fuentes de Ortiz,Ed Maverick,0akyEssGRVHstqCSWXusJL,78,0.189,0.159
+This Is Me,Keala Settle,45aBsnKRWUzhwbcqOJLwfe,78,0.1,0.704
+Welcome To The Jungle,Guns N' Roses,0bVtevEgtDIeRjCJbK3Lmv,78,0.332,0.954
+Get You (feat. Kali Uchis),Daniel Caesar,7zFXmv6vqI4qOt4yGf3jYZ,78,0.358,0.294
+Orphans,Coldplay,6muOWhMh7Tf0UFUtMDBhUR,78,0.283,0.808
+Thotiana,Blueface,3oh6SCCeLuXhFpEyepla6G,78,0.391,0.382
+REEL IT IN,Aminé,5qHirGR7M9tdm6C17DlzSY,78,0.423,0.342
+Out Of Love,Alessia Cara,4WzhjxvLP95y7AMDy0Atwb,78,0.137,0.267
+Welcome to the Black Parade,My Chemical Romance,5wQnmLuC1W7ATsArWACrgW,78,0.236,0.905
+Tongue Tied,Grouplove,0GO8y8jQk1PkHzS31d699N,78,0.371,0.936
+Bring Me To Life,Evanescence,0COqiPhxzoWICwFCS4eZcp,78,0.296,0.943
+Go Loko,YG,3SZqA7rQvROJsCbUu2v0xa,78,0.142,0.67
+Play,K-391,4jp4Z02kzzg8gK0NmDGgml,78,0.168,0.798
+Un Año,Sebastian Yatra,5BDP2tky8oMQJPS33frKVp,78,0.535,0.382
+Best Part (feat. Daniel Caesar),H.E.R.,4OBZT9EnhYIV17t4pGw7ig,78,0.413,0.371
+Falling for U,Peachy!,0sHFw13WH3LtSB3yP8UMYJ,78,0.397,0.358
+goodbye,Billie Eilish,3LgWsmilsrWXiPYQFRD0T7,77,0.0503,0.138
+A Horse with No Name,America,54eZmuggBFJbV7k248bTTt,77,0.831,0.506
+Slow Hands,Niall Horan,2cOUlop2ZakjOKe4WinesN,77,0.848,0.425
+You Make My Dreams,Daryl Hall & John Oates,4o6BgsqLIBViaGVbx5rbRk,77,0.902,0.501
+Cristina (feat. Shelow Shaq),Maffio,2egI1hFZDAYrkCgtepoore,77,0.869,0.599
+Unsainted,Slipknot,5mpUKTdskZea0gStWzeHUZ,77,0.237,0.946
+Secret Love Song (feat. Jason Derulo),Little Mix,4JIo8RztBbELr2gWJ5OGK6,77,0.131,0.642
+Unsteady,X Ambassadors,7lGKEWMXVWWTt3X71Bv44I,77,0.199,0.665
+Him & I (with Halsey),G-Eazy,5k38wzpLb15YgncyWdTZE4,77,0.191,0.731
+Bad and Boujee (feat. Lil Uzi Vert),Migos,4Km5HrUvYTaSUfiSGPJeQR,77,0.175,0.665
+Faded,Alan Walker,7gHs73wELdeycvS48JfIos,77,0.166,0.651
+How Deep Is Your Love,Calvin Harris,22mek4IiqubGD9ctzxc69s,77,0.336,0.868
+Landslide,Fleetwood Mac,5ihS6UUlyQAfmp48eSkxuQ,77,0.423,0.161
+Fast Car,Tracy Chapman,2M9ro2krNb7nr7HSprkEgo,77,0.194,0.292
+Everlong,Foo Fighters,5UWwZ5lm5PKu6eKsHAGxOk,77,0.356,0.882
+Dust in the Wind,Kansas,6zeE5tKyr8Nu882DQhhSQI,77,0.387,0.322
+Light,Jerome,79zshLLUoqncCBkd9YfVUE,77,0.0897,0.89
+Caroline,Aminé,5hTpBe8h35rJ67eAWHQsJx,77,0.707,0.335
+"Another Brick in the Wall, Pt. 2",Pink Floyd,4gMgiXfqyzZLMhsksGmbQV,76,0.719,0.394
+Kids,MGMT,1jJci4qxiYcOHhQR247rEU,76,0.172,0.931
+Chicken Noodle Soup (feat. Becky G),j-hope,6wyr4ReB05D9sJB1Rsmcqo,76,0.168,0.817
+Blurred Lines,Robin Thicke,0n4bITAu0Y0nigrz3MFJMb,76,0.843,0.599
+Lay Me Down,Sam Smith,64GRDrL1efgXclrhVCeuA0,76,0.326,0.19
+No Hay Nadie Más,Sebastian Yatra,3IPJg1sdqLj12kFIndaonN,76,0.808,0.379
+CAN'T GET OVER YOU (feat. Clams Casino),Joji,39oeKRgsLeynDIbWuXyA47,76,0.844,0.316
+If We Have Each Other,Alec Benjamin,7pT6WSg4PCt4mr5ZFyUfsF,76,0.861,0.577
+Wake Me up When September Ends,Green Day,3ZffCQKLFLUvYM59XKLbVm,76,0.146,0.814
+Bored,Billie Eilish,04sN26COy28wTXYj3dMoiZ,76,0.112,0.318
+Duality,Slipknot,61mWefnWQOLf90gepjOCb3,76,0.194,0.982
+Lost Boy,Ruth B.,4h0zU3O9R5xzuTmNO7dNDU,76,0.348,0.0565
+party favor,Billie Eilish,3WxmlTZ85sCYFnuIXmUAEe,76,0.205,0.188
+The Boys Of Summer,Don Henley,4gvea7UlDkAvsJBPZAd4oB,76,0.907,0.549
+Right Here Waiting,Richard Marx,4LFwNJWoj74Yd71fIr1W8x,75,0.126,0.252
+In Your Arms (with X Ambassadors),ILLENIUM,70YPzqSEwJvAIQ6nMs1cjY,75,0.112,0.806
+Listen to the Music,The Doobie Brothers,7Ar4G7Ci11gpt6sfH9Cgz5,75,0.913,0.598
+Norman fucking Rockwell,Lana Del Rey,3RIgHHpnFKj5Rni1shokDj,75,0.138,0.215
+Forest Rain,Rain Recordings,6ADPydLM8fmi6fjO9ZXAb8,75,1e-05,1.0
+BOYFREN,LoveLeo,2YJ7tTicU1vUmUjYNJROrv,75,0.713,0.368
+The Final Countdown,Europe,3MrRksHupTVEQ7YbA0FsZK,75,0.185,0.844
+Better Together,Jack Johnson,2iXdwVdzA0KrI2Q0iZNJbX,75,0.659,0.346
+More Than Words,Extreme,2SbsvihBJmgNKZ4qkXFWrp,75,0.237,0.127
+Not About Angels,Birdy,5sF7hdYvhrcgNq8NZjfK8L,75,0.219,0.111
+Magic In The Hamptons (feat. Lil Yachty),Social House,2Yer0p7uB2lVBUAtANuuQp,75,0.803,0.479
+NIGHTTIME (Interlude),Russ,3X6KN4WFgPYBETFMMX675P,75,0.879,0.556
+"One, Two Step",Ciara,7uKcScNXuO3MWw6LowBjW1,74,0.842,0.511
+I'm Gonna Be (500 Miles),The Proclaimers,66S14BkJDxgkYxLl5DCqOz,74,0.807,0.551
+By the Way,Red Hot Chili Peppers,1f2V8U1BiWaC9aJWmpOARe,74,0.198,0.97
+Rise Up,Andra Day,0tV8pOpiNsKqUys0ilUcXz,74,0.174,0.316
+My Favorite Part,Mac Miller,66wkCYWlXzSTQAfnsPBptt,74,0.718,0.33
+Kiss,Prince,62LJFaYihsdVrrkgUOJC05,73,0.742,0.271
+Lucky,Chelsea Cutler,78rFhTXf81WtRS7Ubl2f4V,73,0.639,0.261
+Bubble Gum,Clairo,3zksbXteOCeSusJ5Xltr3t,72,0.229,0.0167
+The Story Never Ends,Lauv,3u5bTqHMM1P34ZkbwzdckV,72,0.351,0.126
+Hallelujah,Jeff Buckley,3pRaLNL3b8x5uBOcsgvdqM,72,0.0828,0.136
+One Night (feat. Raphaella),MK,4QUA94c3ycZm8dnpPih4sf,72,0.195,0.896
+Like I Do,David Guetta,6RnkFd8Fqqgk1Uni8RgqCQ,72,0.15,0.9
+Zombie,Bad Wolves,1vNoA9F5ASnlBISFekDmg3,72,0.19,0.826
+Englishman In New York,Sting,4KFM3A5QF2IMcc6nHsu3Wp,71,0.647,0.347
+Culpables,Manuel Turizo,3RD0PGolM0mETGHaprwgMn,71,0.764,0.31
+Under the Graveyard,Ozzy Osbourne,0C4bx13JIMSWOAxd8TaoVq,71,0.148,0.88
+Don't Check On Me (feat. Justin Bieber & Ink),Chris Brown,3msKIQc0Yjuz3Zn39g3KLX,71,0.678,0.395
+Rockstar,Ilkay Sencan,4OgwXdylh75fHfwUzJTUqg,71,0.185,0.826
+Banana Pancakes,Jack Johnson,0BgbobvykXxEvxo2HhCuvM,71,0.632,0.373
+White Ferrari,Frank Ocean,2LMkwUfqC6S6s6qDVlEuzV,71,0.219,0.0924
+scared,Jeremy Zucker,6r2JV75tE0vNgNCv4HKsBC,71,0.347,0.075
+FIGURES,Jessie Reyez,3U3J5v3rkx89WnFEQvAJD5,71,0.256,0.139
+Resentment,A Day To Remember,57yI1u6t6cFXbjgjQcRHug,70,0.17,0.952
+Brillo,J Balvin,3vgiIJW3iSQRRvgYiW86i9,70,0.767,0.384
+Alone,Alan Walker,0JiVRyTJcJnmlwCZ854K4p,70,0.157,0.929
+Moon River,Frank Ocean,41cpvQ2GyGb2BRdIRSsTqK,70,0.0937,0.116
+5:32pm,The Deli,7qrBYrivpvfXUPBMmqh3dA,70,0.548,0.186
+Mad World (Feat. Michael Andrews),Gary Jules,3JOVTQ5h8HGFnDdp4VT3MP,70,0.304,0.0581
+Come Home To Me,LÉON,2K8elWg8ihrZRwZJ7Gy6L3,69,0.296,0.193
+Drop It,Tujamo,6BwN05qKw4Q8bNoq3rYuz7,69,0.177,0.897
+Bad Company,Five Finger Death Punch,6nULLS7CipGMSzgQDxDpd1,69,0.17,0.886
+Don't Watch Me Cry,Jorja Smith,202lm9YX5WmAac83tOGlVn,69,0.348,0.157
+Good Day,Surfaces,7iTwzSe2fg5xYwCgXXFkEe,69,0.863,0.353
+I Can't Carry This Anymore,Anson Seabra,1NNnmmBEaId0uoWfvtNd8F,68,0.456,0.0873
+What a Fool Believes,The Doobie Brothers,2yBVeksU2EtrPJbTu4ZslK,68,0.985,0.378
+True Colors,Cyndi Lauper,2A6yzRGMgSQCUapR2ptm6A,68,0.262,0.145
+Why Do You Love Me,Charlotte Lawrence,2y8iBf0QRqCKFtePi9Rl2H,68,0.732,0.305
+head first,Christian French,1nDOeWBfRKA5YNQ8bKWzMM,68,0.61,0.392
+Bota pra Tremer,Pedro Sampaio,0ZHK2kaWTvSCRWkLflRFgF,68,0.915,0.399
+Homerun (Intro),Paulo Londra,7kh95COsNZjnTmc6aF76n7,68,0.672,0.264
+"River - Recorded At RAK Studios, London",Sam Smith,7DNGqrLnd07C2FPpAdn6cc,67,0.198,0.181
+Colourblind,Tones and I,5fmBkJa4mTezkJq8B1TgSn,67,0.115,0.154
+Goodbyes,Jorja Smith,4CYBfRX3oEPni9Elqm8Bnt,67,0.37,0.184
+Only Child,Tierra Whack,4zMmqb0pYwX6b0qc0slCoT,67,0.802,0.365
+Maldita Abusadora,Paulo Londra,2l7CpLcHxJeiWibGWftnew,67,0.669,0.373
+Vem Cá,Altamira,7xeMD2bU9QrjrPRYSvSkKn,67,0.724,0.396
+Godspeed,Frank Ocean,34xTFwjPQ1dC6uJmleno7x,66,0.0773,0.0952
+Vibin' Out with ((( O ))),FKJ,6SEolIp22t0DzeBfCBo3hr,66,0.208,0.169
+This Year's Love,David Gray,1dQOMZz9SkT7ig0w65lQWC,66,0.202,0.167
+Pale Blue Eyes,The Velvet Underground,11VwZwNF29HrqwalYUMitb,66,0.296,0.107
+Amarillo By Morning,George Strait,4TnUKixNWMfajncgdSwFoi,66,0.621,0.361
+Interstellar,Arbour,7BEA0aIXF1nTvOK9zVcVkm,65,0.124,0.157
+Mientes Tan Bien,Sin Bandera,7hbgCKddEQhCVXHsMdHebN,65,0.486,0.193
+Right Down the Line,Gerry Rafferty,2Xb6wJYGi0QXwURw5WWvI5,65,0.77,0.322
+Around Me,Brent Faiyaz,7dQeS4ErW1iWvnKdrtKwKr,64,0.125,0.177
+thinking of you,mommy,2pZi2b9U8r20AF0Cf3hi2D,64,0.51,0.0832
+Good Guy,Frank Ocean,2JUqYobT8NvARdPmc4ES2x,64,0.814,0.131
+Lo Nuestro Se Murió,Gera MX,1DfKhSI9GZFFhUykvgPSNi,63,0.835,0.387
+Real Friends,Camila Cabello,4V6MRo0CEAC9MwAm7dkPuL,63,0.819,0.303
+Tell Me,Groove Theory,2lp8xjq0WTm3HZKHuDEweg,63,0.887,0.361
+(No One Knows Me) Like the Piano,Sampha,5zOnoB8FdZudDcPX4O8WqF,63,0.178,0.199
+True Colours,Tom Odell,1rGxG6Y5OgmSwGPRPJv9Q4,63,0.166,0.126
+Waiting for You,mell-ø,1eN0D2pAR1hou4iEuXQkYQ,62,0.113,0.133
+Perspective,Barnes Blvd.,1yrZp8B0mLT18RuZccaDBJ,62,0.157,0.135
+Harana,Parokya Ni Edgar,3gyEt1vswIEbpQqBs18Lha,62,0.424,0.159
+Bloom,bLAck pARty,05xA64s3UzOOmAnh9SIIjn,61,0.816,0.399
+Testing Tubes,Praizee,0z7GuzX6SvdWx7KDW5Zxg6,61,0.658,0.139
+i wish it would never stop snowing,Sleepy Fish,5nKSxq2yNgQLtgzqJxPn41,61,0.419,0.164
+Drowsy,Banes World,4yp90BbE4dxPXfGGSpbFwT,60,0.415,0.186
+Til I Don't,Mokita,6TSlbHp7Vx4wZ0Rqciwn5v,60,0.816,0.394
+Silly Love Songs - 1993 Digital Remaster,Wings,3bC0IKk62yB6TDaratb1s2,58,0.818,0.335
+Peninsula,Flughand,3PXFeaY00P1xAFCTnxZwiD,58,0.62,0.101
+Is She Really Going Out With Him?,Joe Jackson,29SRvYOKbMLOZeOubNGtLb,58,0.919,0.318
+Santa Baby,Eartha Kitt,5P5efUJoM4Ykh4xG1sZT6F,58,0.484,0.0767
+You Don't Know,Psalm Trees,03uSlN1JqW0MI6OCl7UQEa,58,0.821,0.289
+al pasito/timeless,n o r m a l,08Ovag8PDrT7VC2ZkZLYmz,57,0.858,0.193
+Espoir,Philanthrope,4KKWslFZE9wrJKlOSnvREW,57,0.504,0.101
+Wildflower,Joe Corfield,1eYTN19ZXz0i9iuIX2TD5U,57,0.658,0.139
+Cocktails,Syndrome,37gNKK87AHQpmDmQWWII3Z,57,0.631,0.192
+we'll stay inside when it rains,Rook1e,0VhE5PCtSiJzk7v4a8qZj8,57,0.435,0.134
+Flashlight,Made in M,2jT4R7AMB7SrA4hXOkylYo,56,0.7,0.115
+Pipe,MC Igu,5uMrI6S3YpzJ6xjS6h8oVX,56,0.451,0.178
+Un Bossa +,Zoe Gotusso,3uz2tyLRgSzSlhOIXCz0DB,56,0.6,0.168
+Silence,Philanthrope,2J8XWGtQb2PFtuHjyaNow3,55,0.687,0.183
+Baby,Devendra Banhart,17XvbAd3K1GOjWy5uQvK2U,55,0.864,0.325
+Coastal Walks,.Sinh,5I9cUsP08mVoll09AgkenG,55,0.59,0.13
+.suede,junyii.,3c8xULQwLwLKMEAp9T8l2o,55,0.749,0.116
+yellow chords,jhfly,5Jm9dU50Rpzz5Yao9ynzQs,54,0.96,0.0644
+Ode To Billie Joe,Bobbie Gentry,4FdDorlbJTVHcH3djLbIfn,54,0.695,0.189
+Tungba,Ajebutter22,4fA1ca0O5tOOYDWt1n0z2d,54,0.801,0.346
+Beauty and Madness - 1993,Fra Lippo Lippi,4Cn3jeDKxrpxJwRjbc5GFB,54,0.44,0.183
+Merci,jrd.,4eoIIRUjD5p7V5X5RCpIna,54,0.922,0.105
+Revell,Smoke Trees,4WMhD2aaKegdm7qjyo4mxw,52,0.526,0.0874
+Piece Of My Love,Guy,1AKI0dqAIamOa2UamiHNF9,52,0.828,0.316
+Pyrite,"Sarah, the Illstrumentalist",7AP6EfiA3XH360wVXMICXr,52,0.777,0.141
+My Sunshine,Kavv,7o2SgrTlLry8e0pHJrdqQ5,51,0.932,0.185
+Dutches,Clap Cotton,5szPcyUvZ5B2P4LnzFz2Au,51,0.914,0.397
+Neighbors,Don Philippe,5fwLp5qIOxEtM7BzP5Mj12,50,0.711,0.0986
+Clouds,SamuW,3aNsRsxKJWI7QdKEbav4e4,50,0.897,0.299
+repeat,Loop Schrauber,0nBaWCfOOitktygBKunrEi,50,0.904,0.224
+savacu,Wun Two,4cRtsgJHnz4UaUnHGfDrxB,50,0.565,0.148
+Nobody.knows,Brenky,4CduCTp03yeKuNibmxhobL,50,0.45,0.13
+Opium,Syndrome,7CTya4OETWwc00AeknaWBF,50,0.577,0.169
+Tropical Rainforest at Dawn 6,Nature Sounds,0X2IqXRelEA6nYthvvJaqA,50,0.422,0.179
+Beginnings,Knowmadic,5MzdRLptsrihyrpxtI2hNH,50,0.519,0.183
+Amorita,Mujo,2rPPAYpPE0mByovu9AS5pU,50,0.82,0.0526
